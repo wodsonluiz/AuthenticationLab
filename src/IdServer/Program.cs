@@ -7,7 +7,7 @@ namespace IdServer
     {
         static void Main(string[] args)
         {
-            using (WebApp.Start<Startup>("https://localhost:44333"))
+            using (WebApp.Start<Startup>("http://localhost:44333"))
             {
                 Console.ReadLine();
             }
